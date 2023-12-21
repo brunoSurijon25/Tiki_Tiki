@@ -1,0 +1,376 @@
+.navbar-expand-lg{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    margin: 0;
+    padding: 2%;
+}
+body{
+    background-color: rgba(199, 196, 192, 0.973);
+}
+main{
+    margin: 0 10%;
+}
+#contacto{
+    margin-top: 10%;
+}
+.btn-primary{
+    margin: 3% 0;
+}
+#productos{
+    margin-top: 10%;
+}
+#nosotros{
+    margin-top: 10%;
+}
+h2{
+    padding: 0.5em;
+    text-align: center;
+    font-size: 3.5rem !important ;
+    color: rgb(203, 135, 51) !important;
+}
+h3{
+    padding: 0.5em;
+    text-align: center;
+    font-size: 3.5rem !important ;
+    color: rgb(203, 135, 51) !important;
+}
+.introP{
+    font-size: 1.35em;
+    padding: 1em;
+}
+.card{
+    border-radius: 3%;
+}
+#cartas-shorts{
+    margin-top: 2%;
+}
+#novedades{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 2%;
+}
+#novedades div{
+    margin: 4%;
+}
+#novedades p{
+    font-size: 1.35em;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    padding: 1em;
+}
+.modal-content > .img-fluid{
+    max-width: 50%;
+    height: 50%;
+}
+figure{
+    text-align: center;
+}
+footer{
+    margin: 0 5%;
+    margin-top: 3%;
+}
+#datos{
+    text-align: center;
+  }
+  .labelContacto, input, textarea {
+    width: 16%;
+    margin-bottom: 10px;
+  }
+
+  #botonEnviar {
+    width: 30%;
+  }
+
+
+@media (min-width: 320px) and (max-width: 576px){
+    .navbar-expand-lg{
+        margin: 0;
+        padding: 0;
+    }
+    .container-fluid{
+        margin: 0;
+        padding: 2%;
+    }
+    body{
+        background-color: rgba(199, 196, 192, 0.973);
+    }
+    main{
+        margin: 0 10%;
+    }
+    #contacto{
+        margin-top: 10%;
+    }
+    .btn-primary{
+        margin: 3% 0;
+    }
+    #productos{
+        margin-top: 10%;
+    }
+    #nosotros{
+        margin-top: 10%;
+    }
+    h2{
+        margin-top: 5%;
+        padding: 0.5em;
+        text-align: center;
+        font-size: 2.5rem !important ;
+        color: rgb(203, 135, 51) !important;
+    }
+    h3{
+        padding: 0.5em;
+        text-align: center;
+        font-size: 3.5rem !important ;
+        color: rgb(203, 135, 51) !important;
+    }
+    .introP{
+        font-size: 1em;
+        padding: 1em;
+    }
+    .card{
+        border-radius: 3%;
+    }
+    #cartas-shorts{
+        margin-top: 2%;
+    }
+    #novedades{
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 2%;
+    }
+    #novedades div{
+        margin: 4%;
+    }
+    #novedades p{
+        font-size: 1em;
+        margin-left: 4%;
+        margin-bottom: 2%;
+        padding: 1em;
+    }
+    #video{
+        height: 450px;
+    }
+
+    .modal-content > .img-fluid{
+        max-width: 50%;
+        height: 50%;
+    }
+    figure{
+        text-align: center;
+    }
+    footer{
+        background-color: rgb(255, 255, 255);
+        margin: 0 5%;
+        margin-top: 3%;
+    }
+    footer img{
+        width: 100%;
+    }
+    #datos{
+        text-align: center;
+      }
+    .labelContacto, input, textarea {
+          width: 100%;
+          margin-bottom: 10px;
+          text-align: left;
+        }
+    
+        #botonEnviar {
+          width: 100%;
+        }
+    
+}
+
+
+
+@media (min-width: 577px) and (max-width: 992px){
+    .navbar-expand-lg{
+        margin: 0;
+        padding: 0;
+    }
+    .container-fluid{
+        margin: 0;
+        padding: 2%;
+    }
+    body{
+        background-color: rgba(199, 196, 192, 0.973);
+    }
+    main{
+        margin: 0 10%;
+    }
+    #contacto{
+        margin-top: 10%;
+    }
+    .btn-primary{
+        margin: 3% 0;
+    }
+    #productos{
+        margin-top: 10%;
+    }
+    #nosotros{
+        margin-top: 10%;
+    }
+    h2{
+        margin-top: 5%;
+        padding: 0.8em;
+        text-align: center;
+        font-size: 3rem !important ;
+        color: rgb(203, 135, 51) !important;
+    }
+    #tituloNovedades{
+        margin-top: 5%;
+        padding: 1.5em;
+        text-align: center;
+        font-size: 3rem !important ;
+        color: rgb(203, 135, 51) !important
+    }
+    h3{
+        padding: 0.5em;
+        text-align: center;
+        font-size: 3.5rem !important ;
+        color: rgb(203, 135, 51) !important;
+    }
+    .introP{
+        font-size: 1.5em;
+        padding: 1em;
+    }
+    .card{
+        border-radius: 3%;
+    }
+    #cartas-shorts{
+        margin-top: 2%;
+    }
+    #novedades{
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 2.5%;
+    }
+    #novedades p{
+        font-size: 1.5em;
+        margin-left: 4%;
+        margin-bottom: 2%;
+        padding: 1em;
+    }
+    #video{
+        height: 610px;
+    }
+
+    .modal-content > .img-fluid{
+        max-width: 50%;
+        height: 50%;
+    }
+    figure{
+        text-align: center;
+    }
+    footer{
+        background-color: rgb(255, 255, 255);
+        margin: 0 5%;
+        margin-top: 3%;
+    }
+    footer img{
+        width: 100%;
+    }
+    #datos{
+        text-align: center;
+      }
+    .labelContacto, input, textarea {
+          width: 100%;
+          margin-bottom: 10px;
+          text-align: left;
+        }
+    
+        #botonEnviar {
+          width: 60%;
+        }
+    
+}
+
+
+
+@media (min-width: 993px){
+    .navbar-expand-lg{
+        margin: 0;
+        padding: 0;
+    }
+    .container-fluid{
+        margin: 0;
+        padding: 2%;
+    }
+    body{
+        background-color: rgba(199, 196, 192, 0.973);
+    }
+    main{
+        margin: 0 10%;
+    }
+    #contacto{
+        margin-top: 10%;
+    }
+    .btn-primary{
+        margin: 3% 0;
+    }
+    #productos{
+        margin-top: 10%;
+    }
+    #nosotros{
+        margin-top: 10%;
+    }
+    h2{
+        padding: 0.5em;
+        text-align: center;
+        font-size: 3.5rem !important ;
+        color: rgb(203, 135, 51) !important;
+    }
+    h3{
+        padding: 0.5em;
+        text-align: center;
+        font-size: 3.5rem !important ;
+        color: rgb(203, 135, 51) !important;
+    }
+    .introP{
+        font-size: 1.35em;
+        padding: 1em;
+    }
+    .card{
+        border-radius: 3%;
+    }
+    #cartas-shorts{
+        margin-top: 2%;
+    }
+    #novedades{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 2%;
+    }
+    #novedades div{
+        margin: 4%;
+    }
+    #novedades p{
+        font-size: 1.35em;
+        margin-left: 4%;
+        margin-bottom: 2%;
+        padding: 1em;
+    }
+    .modal-content > .img-fluid{
+        max-width: 50%;
+        height: 50%;
+    }
+    figure{
+        text-align: center;
+    }
+    footer{
+        margin: 0 5%;
+        margin-top: 3%;
+    }
+    #datos{
+        text-align: center;
+      }
+      .labelContacto, input, textarea {
+        width: 20%;
+        margin-bottom: 10px;
+      }
+    
+      #botonEnviar {
+        width: 30%;
+      }
+}
