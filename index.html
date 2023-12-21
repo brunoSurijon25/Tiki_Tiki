@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>TIKI TIKI Camisetas</title>
+</head>
+
+<body>
+  <header>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid bg-dark">
+        <h1 class="navbar-brand text-white">TIKI TIKI</h1>
+        <button class="navbar-toggler bg-light-subtle" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-light-subtle"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#productos" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-white" href="#productos">Camisetas</a></li>
+                <li><a class="dropdown-item text-white" href="#productos">Shorts</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#novedades">Novedades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!---Carrousel de inicio-->
+  <div id="carrusel" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="deslizarCarrusel 1"></button>
+      <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1"
+        aria-label="deslizarCarrusel 2"></button>
+      <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2"
+        aria-label="deslizarCarrusel 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <figure>
+        <img src="imagenes/banner-1.jpg" class="d-block w-100" alt="banner 1 River Plate">
+      </figure>
+      </div>
+      <div class="carousel-item">
+
+      <figure>
+        <img src="imagenes/banner-2.jpg" class="d-block w-100" alt="banner 2 Boca Jrs">
+      </figure>
+
+      </div>
+      <div class="carousel-item">
+
+        <figure>
+        <img src="imagenes/banner-3.jpg" class="d-block w-100" alt="banner 3 Seleccion Argentina">
+        </figure>
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carrusel"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carrusel"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <main>
+    <!--Nosotros-->
+    <section id="nosotros">
+      <h2 class="h1" >Sobre nosotros</h2>
+      <p class="introP"><strong>Tiki Tiki</strong> surge de la pasion que sus creadores tienen por el futbol y por la
+        emocion y la expectativa que le genera a toda persona que nos rodea.</p>
+
+      <p class="introP">Te ofrecemos <strong>camisetas de futbol</strong> de todos los equipos de Argentina y del mundo
+        entero para que salgas a comerte la cancha, ademas contamos con una gran variedad de <strong>indumentaria
+          futbolistica</strong>, merchandising de <strong>muñecos coleccionables</strong> y <strong>camisetas
+              retro</strong> para rememomar las epocas doradas del deporte rey.</p>
+    </section>
+
+    <!--Productos-->
+
+    <section id="productos" class="text-center">
+
+      <h2 class="h1">Productos</h2>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <!--Producto 1-->
+        <article class="col">
+          <div class="card h-100">
+            <!--Imagen-->
+
+            <figure>
+            <img src="imagenes/sanmartin.png" class="card-img-top" alt="camiseta de San Martin de SJ">
+            </figure>
+
+            <div class="card-body">
+              <!--Titulo-->
+              <h5 class="card-title">Camiseta San Martin de San Juan</h5>
+              <!--Texto-->
+              <p class="card-text">Camiseta oficial del equipo San Martin de San Juan</p>
+            </div>
+            <!--Ventana modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Ver mas informacion
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="exampleModalLabel">Camiseta San Martin de San Juan</h3>
+                  </div>
+                  <div class="modal-body">
+                    Detalle: Camiseta oficial San Martin de San Juan de algodon marca mitre edicion titular + estampado
+                    original
+                  </div>
+                  <figure>
+                    <img src="imagenes/sanmartin.png" class="img-fluid" alt="camiseta san martin" id="imagenmodal">
+                  </figure>
+                  <div class="modal-body">
+                    Precio: $ 34000
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Comprar producto</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Precio-->
+            <div class="card-footer">
+              <small class="text-body-secondary">$ 34000</small>
+            </div>
+          </div>
+        </article>
+
+        <!--Producto 2-->
+        <article class="col">
+          <div class="card h-100">
+            <!--Imagen-->
+
+            <figure>
+            <img src="imagenes/river.jpg" class="card-img-top" alt="Camiseta de River">
+            </figure>
+
+            <div class="card-body">
+              <!--Titulo-->
+              <h5 class="card-title">Camiseta River Plate</h5>
+              <!--Texto-->
+              <p class="card-text">Camiseta Adidas River Plate version oficial edicion 2023</p>
+            </div>
+            <!--Ventana modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dosModal">
+              Ver mas informacion
+            </button>
+            <div class="modal fade" id="dosModal" tabindex="-1" aria-labelledby="dosModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="dosModalLabel">Camiseta River Plate</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Detalle: Camiseta de algodon River plate oficial marca Adidas edicion 2023 + estampado original
+                  </div>
+                  <figure>
+                    <img src="imagenes/river.jpg" class="img-fluid" alt="camiseta de river">
+                  </figure>
+                  <div class="modal-body">
+                    Precio: $ 49000
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Comprar producto</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Precio-->
+            <div class="card-footer">
+              <small class="text-body-secondary">$ 49000</small>
+            </div>
+          </div>
+        </article>
+
+        <!--Producto 3-->
+        <article class="col">
+          <div class="card h-100">
+            <!--Imagen-->
+
+            <figure>
+            <img src="imagenes/argentina.jpg" class="card-img-top" alt="Camiseta de Argentina">
+            </figure>
+
+            <div class="card-body">
+              <!--Titulo-->
+              <h5 class="card-title">Camiseta Seleccion Argentina</h5>
+              <!--Texto-->
+              <p class="card-text">Camiseta Seleccion Argentina Adidas Qatar 2022.</p>
+            </div>
+            <!--Ventana modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tresModal">
+              Ver mas informacion
+            </button>
+            <div class="modal fade" id="tresModal" tabindex="-1" aria-labelledby="tresModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="tresModalLabel">Camiseta Seleccion Argentina</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Detalle: Camiseta oficial Seleccion Argentina Adidas version Qatar 2022 3 estrellas + parche
+                    original
+                  </div>
+                  <figure>
+                    <img src="imagenes/argentina.jpg" class="img-fluid" alt="camiseta de argentina">
+                  </figure>
+                  <div class="modal-body">
+                    Precio: $ 58000
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Comprar producto</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Precio-->
+            <div class="card-footer">
+              <small class="text-body-secondary">$ 58000</small>
+            </div>
+
+          </div>
+        </article>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4" id="cartas-shorts">
+        <!--Producto 4-->
+        <article class="col">
+          <div class="card h-100">
+            <!--Imagen-->
+
+            <figure>
+            <img src="imagenes/short-argentina-suplente.jpg" class="card-img-top"
+              alt="Short suplente seleccion argentina">
+            </figure>
+
+            <div class="card-body">
+              <!--Titulo-->
+              <h5 class="card-title">Short Seleccion Argentina</h5>
+              <!--Texto-->
+              <p class="card-text">Short suplente Seleccion Argentina Adidas Qatar 2022.</p>
+            </div>
+            <!--Ventana modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cuatroModal">
+              Ver mas informacion
+            </button>
+            <div class="modal fade" id="cuatroModal" tabindex="-1" aria-labelledby="cuatroModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="cuatroModalLabel">Short Seleccion Argentina</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Detalle: Short suplente violeta con tiras purpuras Seleccion Argentina Adidas Qatar 2022 + parche
+                    oficial
+                  </div>
+                  <figure>
+                    <img src="imagenes/short-argentina-suplente.jpg" class="img-fluid" alt="short argentina">
+                  </figure>
+                  <div class="modal-body">
+                    Precio: $ 10000
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Comprar producto</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Precio-->
+            <div class="card-footer">
+              <small class="text-body-secondary">$ 10000</small>
+            </div>
+          </div>
+        </article>
+
+        <!--Producto 5-->
+        <article class="col">
+          <div class="card h-100">
+            <!--Imagen-->
+
+            <figure>
+            <img src="imagenes/short-manchester-united.jpg" class="card-img-top" alt="Short Manchester United">
+            </figure>
+
+            <div class="card-body">
+              <!--Titulo-->
+              <h5 class="card-title">Short Manchester United</h5>
+              <!--Texto-->
+              <p class="card-text">Short oficial Manchester United Adidas edicion 2023.</p>
+            </div>
+            <!--Ventana modal-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cincoModal">
+              Ver mas informacion
+            </button>
+            <div class="modal fade" id="cincoModal" tabindex="-1" aria-labelledby="cincoModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="cincoModalLabel">Short Macnhester United</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                    Detalle: Short titular Manchester United blanco con tiras rojas Adidas Oficial 2023 + parche
+                    original.
+                  </div>
+                  <figure>
+                    <img src="imagenes/short-manchester-united.jpg" class="img-fluid" alt="short manchester">
+                  </figure>
+                  <div class="modal-body">
+                    Precio: $ 9000
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" href="comprar.html" target="_blank">Comprar producto</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Precio-->
+            <div class="card-footer">
+              <small class="text-body-secondary">$ 9000</small>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <h2 class="h1" id="tituloNovedades" >Novedades</h2>
+    
+    <section id="novedades">
+        <div class="ratio ratio-16x9" id="video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/yRRsnh2x0rQ?si=rLGjt7OFEAZJy8fu"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div>
+          <p>Oficialmente lanzamos a la venta la <strong>seccion coleccionable</strong>, descubri todo el
+            <strong>merchandising de coleccion futbolistico</strong> y disfruta de coleccionar muñecos de plastico,
+            estampas, stickers y toda clase de productos de coleccion. No te pierdas la gran variedad de merchandising
+            disponible oficialmente en Tiki Tiki
+          </p>
+        </div>
+      </section>
+
+      <!--Contacto-->
+      <section id="contacto" class="text-center">
+
+        <h2 class="h1">Contacto</h2>
+        <form action="#" method="get">
+        <div class="input-group mb-3">
+          <label class="labelContacto" for="nombre">Ingrese Su Nombre</label>
+          <input type="text" class="form-control" placeholder="Su nombre" aria-label="nombre" name="nombre" id="nombre">
+        </div>
+        <div class="input-group mb-3">
+          <label class="labelContacto" for="correo">Ingrese Su Correo</label>
+          <input type="email" class="form-control" placeholder="Su correo electronico" aria-label="Correo"
+            aria-describedby="correo" name="correo" id="correo" required>
+        </div>
+        <div class="input-group mb-3">
+          <label class="labelContacto" for="telefono">Ingrese Su Telefono</label>
+          <input type="number" class="form-control" placeholder="Su numero de telefono" aria-label="telefono"
+            aria-describedby="telefono" id="telefono" required>
+        </div>
+        <div class="input-group">
+          <label class="labelContacto" for="comentario">Deje un Mensaje</label>
+          <textarea class="form-control" placeholder="Mensaje" aria-label="With textarea" name="comentario" id="comentario"></textarea>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button id="botonEnviar" class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+
+      </form>
+
+      </section>
+      
+  </main>
+
+  <!--Datos de alumnos-->
+ 
+
+
+  <!--JS-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+  <footer>
+    <div id="datos">
+     <div class="card mb-3" style="max-width: 520px;">
+       <div class="row g-0">
+
+         <div class="col-md-4">
+           <figure>
+             <img src="imagenes/imagenBruno.jpg" class="img-fluid rounded-start" alt="Imagen alumno">
+           </figure>
+         </div>
+
+         <div class="col-md-8">
+           <div class="card-body">
+             <p class="card-title"><strong>Bruno Surijon</strong></p>
+             <p class="card-text">bruno.surijon@davinci.edu.ar</p>
+             <p class="card-text">19 años</p>
+             <p class="card-text">Interaccion con Dispositivos Moviles</p>
+             <p class="card-text">Diseño y Programacion Web-3er cuatrimestre</p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   </footer>
